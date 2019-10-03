@@ -8,7 +8,7 @@ vector<string> split_string(string);
 
 // Complete the countApplesAndOranges function below.
 void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vector<int> oranges,int m,int n) {
-        int apple=0,orange=0;    
+        int apple=0,orange=0;
     for(int i=0;i<m;i++)
     {
         if(apples[i]<0)
@@ -17,9 +17,9 @@ void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vecto
         {
             apple++;
         }
-        
+
     }
-    
+
     for(int i=0;i<n;i++)
     {
         if(oranges[i]>0)
@@ -28,10 +28,10 @@ void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vecto
         {
             orange++;
         }
-        
+
     }
     cout<<apple<<"\n"<<orange;
-        
+
 
 }
 
@@ -123,3 +123,5 @@ vector<string> split_string(string input_string) {
 
     return splits;
 }
+//Happy Hacktoberfest
+//Happy Hackerrank
